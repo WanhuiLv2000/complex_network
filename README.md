@@ -31,7 +31,7 @@ nx.diameter()
 ......
 
 ### Importance ordering
-We use betweenness centrality,closeness centrality and degree centrality to calculate the importance of each node.And import the results into a table.
+We use betweenness centrality,closeness centrality and degree centrality to calculate the importance of each node.And import the results into a table.https://github.com/WanhuiLv2000/complex_network/blob/main/facebook.xls
 
 nx.betweenness_centrality()
 
