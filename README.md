@@ -14,13 +14,13 @@ pip install openpyxl
 Data is available from the Stanford Data Sets website
 http://snap.stanford.edu/data/ego-Facebook.html
 ### cummunity detection
-1.The Louvain algorithm was used to divide the Facebook social network, and the sub-community was visually analyzed by finding the inducer graph.
+1.The Louvain algorithm was used to divide the Facebook social network, and the sub-community was visually analyzed by finding the inducer graph.And import the results into a table.https://github.com/WanhuiLv2000/complex_network/blob/main/detection.xlsx
 
 partition=community_louvain.best_partition(G)
 
 subgraph=G.subgraph()
 
-2.Sub-community characteristics such as average degree, clustering coefficient, network transitivity, network diameter, and average shortest path are calculated.And import the results into a table.
+2.Sub-community characteristics such as average degree, clustering coefficient, network transitivity, network diameter, and average shortest path are calculated.
 
 nx.average_clustering()
 
